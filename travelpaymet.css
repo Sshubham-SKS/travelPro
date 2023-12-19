@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container{
+    background-image: url( "https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg?w=1060&t=st=1669827670~exp=1669828270~hmac=1d27b47c8acdf0a11b367d3c0ac545e7f66fe498a22e42fece51a51c83b441ce");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+}
+ 
+
+.sitelogo{
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+ .nav_bar{
+    height: 10vh;
+ }
+
+ .top_heading{
+    margin-bottom: 100px;
+    text-align: center;
+ }
+
+ .below_top_heading{
+    text-align: center;
+    font-size: 20px;
+    color: blueviolet;
+ }
+
+ .button1{
+    border-radius: 2px;
+    display: inline;
+  
+}
+
+.button2{
+    border-radius: 2px;
+    display: inline;
+     
+}
+
+/*-----------------------------  why_choose-us0_heading---------------------------*/
+.hedingdown{
+  padding: 20px;
+  background-color: rgb(238, 248, 252);  
+}
+
+.headingperagraphbottom{
+    color: rgb(180, 128, 59);
+}
+
+.wcu_image{
+    margin-top: 20px;
+    padding-left: 0px;
+    border: 10px;
+    border-radius: 5px;
+}
+.wcu_image_border{
+    border: 3px solid  rgb(238, 229, 229);
+    box-shadow: 2px  2px 10px ;
+    background-color: aliceblue;
+    margin: 20px;
+    border-radius: 10px;
+}
+.colomnimg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    
+}
+
+ .center{
+    margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+.colomnimg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colomnimg3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colomnheading1{
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+    
+
+}
+
+.colomnpera1{
+    text-align: center;
+    padding: 10px;
+}
+
+.colomnpera2{
+padding-left: 15px;
+}
+
+.colomnpera3{
+    padding: 15px;
+}
+ 
+/*-----------------------------  explore_heading---------------------------*/
+
+.explorecontainer{
+    padding: 20px;
+    margin: 30px;
+border-radius: 30px;
+    background-color: rgb(206, 240, 240);
+    
+}
+
+.exploreheading{
+    font-size: 30px;
+    font-weight: 600;
+    margin:30px 0px 0px 20px ;
+     
+}
+
+.explore_image{
+    border-radius: 20px;
+}
+
+.flightimg{
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    box-shadow: 5px  5px 10px;
+}
+.explore_Heading1{
+  font-weight: 800;
+   padding: 20px;
+   text-align: center;
+}
+
+.headingpera{
+  
+    color: rgb(255, 0, 179);
+    margin: 10px;
+}
+
+
+/*----------------------------- reedm_gift---------------------------*/
+
+.reedm_heading{
+ margin: 20px;
+}
+
+.reedm_pera{
+    padding: 20px;  
+}
+
+.gift_imgae{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align:right;   
+  padding-left:10px;
+  width: 100%;
+ height: auto;
+}
+
+.gift_background{
+    background-color: rgb(237, 252, 252);
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.btn1{
+    color: rgb(248, 3, 215);
+    background-color: rgb(212, 231, 158);
+    margin-left: 0px;
+    padding: 10px 20px;
+    border-radius: 20px ;
+    font-weight: 700;
+}
+ 
+/*-----------------------------payment_heading---------------------------*/
+
+.payment_background_color{
+    background-color: rgb(224, 251, 251);
+    border-radius: 20px;
+     margin: 50px;
+}
+.payment_heading{
+     padding-left: 30px;
+     padding-top: 30px;
+    font-size:40px;
+    font-weight: 600;
+}
+
+.payment_paragraph{
+    padding: 40px;
+}
+
+.payment_image1{
+     margin-top: 30px;
+}
+
+.payment_image{
+    padding-bottom: 60px;
+    text-align: right;
+    margin-left: 10px;
+    width: 100%;
+    height: auto;
+    
+}
+/*----------------------------- follow-us_heading---------------------------*/
+.follow_us{
+text-align: center;
+background-color: azure;
+margin: 30px;
+border-radius: 30px;
+padding-bottom: 60px;
+ 
+}
+
+.follow_us_image1{
+    background-color: rgb(209, 250, 148);
+    display: inline;
+    padding: 20px 10px 10px 10px;
+    margin:   1px;
+    border-radius: 50%;
+    margin-top: 10px;
+    color: rgb(9, 241, 9);
+}
+
+.follow_us_image2{
+    background-color:  rgb(209, 250, 148);
+    display: inline;
+    padding:  20px 10px 10px 10px;
+    margin: 1px;
+    border-radius: 50%;
+    margin-top: 10px;
+    color: rgb(9, 241, 9);
+}
+
+.follow_us_image3{
+    background-color:  rgb(209, 250, 148);
+    display: inline;
+    padding: 20px 10px 10px 10px;
+    margin: 1px;
+    border-radius: 50%;
+    margin-top: 10px;
+    color: rgb(9, 241, 9);
+}
+
+.follow_us_image4{
+    background-color:  rgb(209, 250, 148);
+    display: inline;
+    padding:  20px 10px 10px 10px;
+    margin: 1px;
+    border-radius: 50%;
+    margin-top: 10px;
+    color: rgb(9, 241, 9);
+}
+
+.social_media_margin{
+    margin-top: 40px;
+}
+
+.lastposition{
+    
+  text-align: center;
+    background-color: rgb(247, 243, 243);
+    color: white;
+    margin: 30px;
+    border-radius: 30px;
+    
+}
+
+.last_para{
+   color: rgb(59, 50, 50); 
+}
+ 
+
+.navbar-nav{
+    margin-left: auto;
+}
+
